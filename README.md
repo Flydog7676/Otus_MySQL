@@ -14,3 +14,8 @@ rpm -Uvh mysql80-community-release-el7-3.noarch.rpm
 yum install -y mysql-server
 systemctl start mysqld
 ```
+- смотрим временный пароль MYSQL
+``` grep password /var/log/mysqld.log ```
+- скрипт начальной настройки MySQL - меняем пароль, чистим пользователей и базы
+- ```mysql_secure_installation ```
+
