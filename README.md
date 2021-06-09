@@ -1,7 +1,7 @@
 # Otus_MySQL
 1. Установка MYSQL
 - Обновление системы ```yum -y update```
-- Установка доп программ ```yum -y wget```
+- Установка доп программ ```yum -y  install wget```
 - Выключение selinux
 ```  
 setenforce 0
