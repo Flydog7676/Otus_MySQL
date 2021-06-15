@@ -16,6 +16,6 @@ systemctl start mysqld
 ```
 - смотрим временный пароль MYSQL
 ``` grep password /var/log/mysqld.log ```
-- скрипт начальной настройки MySQL - меняем пароль, чистим пользователей и базы
+- скрипт начальной настройки MySQL - меняем пароль на Otus23@!, чистим пользователей и базы
 - ```mysql_secure_installation ```
 
