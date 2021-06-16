@@ -44,7 +44,7 @@ mysql> SHOW MASTER STATUS;
 - Заходим в консоль Mysql c правами root  ```mysql -u root -p```
 - Настраиваем репликацию с MASTER
 ```
-CHANGE MASTER TO MASTER_HOST='192.168.50.10', MASTER_USER='repl', MASTER_PASSWORD='oTUSlave#2020', MASTER_LOG_FILE='binlog.000004', MASTER_LOG_POS=156, GET_MASTER_PUBLIC_KEY = 1;
+CHANGE MASTER TO MASTER_HOST='192.168.50.10', MASTER_USER='repl', MASTER_PASSWORD='Otus23@!', MASTER_LOG_FILE='binlog.000004', MASTER_LOG_POS=156, GET_MASTER_PUBLIC_KEY = 1;
 ```
 - Проверяем статус SLAVE сервера ```SHOW SLAVE STATUS\G```
 - Выходим из консоли MySQL ```exit```
