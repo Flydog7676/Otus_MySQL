@@ -48,5 +48,5 @@ CHANGE MASTER TO MASTER_HOST='192.168.50.10', MASTER_USER='repl', MASTER_PASSWOR
 ```
 - Проверяем статус SLAVE сервера ```SHOW SLAVE STATUS\G```
 - Выходим из консоли MySQL ```exit```
-- Сделаем логический бэкап ```mysqldump --u root -p -all-databases --no-create-info > dump-data.sql```
-- Сделаем физический бэкап бинлогов в текущий каталог ```mysqlbinlog --read-from-remote-server --host=10.128.0.48 --stop-never binlog.000001
+- Сделаем логический бэкап ```mysqldump -u root -p -all-databases --no-create-info > dump-data.sql```
+
